@@ -13,7 +13,8 @@ public class ciudad extends paises {
     public String getPoblacion() {return poblacion;
     }
 
-    public void setPoblacion(String poblacion) {this.poblacion = poblacion;
+    public void setPoblacion(String poblacion) {
+        this.poblacion = poblacion;
     }
 
     public String getNombre() {return nombre;
@@ -23,13 +24,12 @@ public class ciudad extends paises {
     }
 
     public void cuidad(){
-        System.out.println("esta es la ciudad con mas poblacion ");
+        System.out.println("Esta es la ciudad con mas poblacion ");
     }
     public void llamarcuidad(){
-        System.out.println("Tiene una poblacion de: "+ getPoblacion());
-        System.out.println(" La cuidad se llama: "+getNombre());
+        System.out.println("Tiene una poblacion : "+ getPoblacion());
+        System.out.println("La cuidad se llama: "+getNombre());
         cuidad();
 
-        tamanio();
     }
 }

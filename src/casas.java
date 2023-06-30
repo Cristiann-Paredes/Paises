@@ -21,13 +21,13 @@ public class casas extends pueblos{
     public void setCosto(int costo) {this.costo = costo;
     }
 
-    public void caca(){
-        System.out.println("este es una casa propia ");
+    public void casa(){
+        System.out.println("Esta es una casa propia ");
     }
     public void llamarcasa(){
-        System.out.println("El dueño de la casa es: "+ getLugar());
-        System.out.println("El precio de la casa es: "+getFundacion());
-        pueblo();
+        System.out.println("El dueño de la casa es: "+ getPropietario());
+        System.out.println("El precio de la casa es: "+getCosto());
+        casa();
     }
 
 }

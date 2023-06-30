@@ -27,7 +27,7 @@ public class pueblos extends ciudad{
 
     public void llamarpueblo(){
         System.out.println("Se encuentra en el lugaer  de: "+ getLugar());
-        System.out.println(" La se fundo en: "+getFundacion());
+        System.out.println("El pueblo se fundo en: "+getFundacion());
         pueblo();
     }
 }

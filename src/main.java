@@ -6,6 +6,7 @@ public class main {
     public static void main(String[] args) {
 
         ArrayList<paises>paises=new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
 
         paises brasil=new paises("America",8500);
         paises.add(brasil);
@@ -25,6 +26,7 @@ public class main {
         real.llamarpueblo();
         propia.llamarcasa();
         System.out.println("-------------------------------------------------------------------------------------");
+
 
 
 
